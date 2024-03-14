@@ -1,100 +1,109 @@
-Johnny Coder
+Karl Statz
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  "Experienced software engineer, educator and team leader looking for the next challenge"
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+2008-2013
+:   **BA, Interactive Arts and Media**; Columbia College Chicago
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Software Architect, Rhinodox: 2017-Present:**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+As the architect at Rhinodox I wear a lot of hats and like to keep close to the codebase. 
+My main task is to write and maintain our internal libraries around messaging, data access, 
+cache management, concurrency. I like to keep my hands in the code acting as both a mentor and
+to both practice what I preach and work in my own platform to identify and verify pain points.
 
-* First item
+* Designed, implemented and maintained a full architecture platform based on Domain Driven Design, CQRS
+RabbitMQ and PostgreSQL
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+* Implemented a research project into Natural Language Processing and large scale text extraction/analytics
+using Stanford's NLP toolkit in Kotlin/Java [Proof of Concept](https://github.com/kstatz12/KotlinNLPExample)
 
-**That Other Job You Had**
+* Implemented OCR using Tesseract driven by a java JNI integration with native code
 
-Also with a short description.
+* Replaced a Marklogic based document storage/search system with Postgres and Elasticsearch
+
+* Implemented a Docusign Integration using a distributed state management saga
+
+* Implemented a Nylas Email sync integration using webhooks, Polly.NET and a redis backed
+mutex/counting semaphore to keep within their rate limits
+
+* Mentored the development team on software engineering principles, computer science fundamentals
+and introduced industry standard tooling
+
+**Staff Software Engineer, Echo Global Logistics: 2017**
+
+Lead the implementation of a high throughput, highly available tracking data system
+
+**Senior Software Engineer, Echo Global Logistics: 2014-2017**
+
+Lead the implementation of a data science driven, next generation Less than Truckload Rating platform
+
+**Software Engineer, Echo Global Logistics: 2013-2014**
+
+Wrote and maintained document management systems, Accounts Payable/Receivable 
+
+**Web Developer, Core12/Fret12: 2013**
+
+Implemented/Maintained N2 CMS, Wordpress, Ruby on Rails and Django based sites for customers ranging from Mercedes
+to bands like Alterbridge and Coheed and Cambria
+
+**Intern, Greater Chicago Food Depository: 2007-2012**
+
+Managed Cisco/Barracuda Networks firewalls, Server Infrastructure. Made a nuisance of myself helping with a Truckload Dock Scheduling
+Application
+
+Academic Experience
+--------------------
+**Computer Science Faculty, Columbia College Chicago: 2017-Present**
+
+* Designed their c++ I and II classes from the ground up (PROG 220 and PROG 450)
+* Taught special courses in F# and open source fundamentals
+* Taught PROG101 using C# and .NET/WPF
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Perfy
+:   A .net memory pressure, garbage collection, thread starvation and JIT monitor for diagnosing system issues of running processes
+    * [link](https://github.com/kstatz12/Perfy)
 
 Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+:   **CSharp-LS:** [link](https://github.com/razzmatazz/csharp-language-server)
+    * Implemented code formatting
+    * Fixed various bugs
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **C#/.NET:** I have experience with writing and deploying C# in .net from .NET 2.0 all the way up to .NET 9 preview
+:   **Java:** I have experience with gradle/maven java projects from java 1.6 on 
+:   **Erlang/Elixir:** I use erlang/BEAM to mock/prove out distributed/concurrent systems
+:   **Javascript/Typescript** I am experienced in building web applications in angular 8+ and nodejs using express
+:   **SQL:** I have extensive experience designing schemas, developing and performance profiling SQL for postgres/MS SQL Server and MySQL
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   Other languages **C/C++**, **OCaml**, **TLA+/Pluscal**, **elisp**, **python**, **Idris**, **Rust**, **golang**
+:   Messaging **RabbitMQ**, **Amazon SQS**, **Kafka**
+:   Caches **Memcached**, **Redis**
+:   Databases: **Postgres**, **SQL Server**, **MySQL**, **Elastic Search**, **Mongo DB**
+:   Public Clouds **AWS**
+:   CI/CD  **Ansible**, **Jenkins**, **Github Actions**
+:   Containerization **Docker**, **Docker Compose**
+:   Misc **emacs**, **make**, **cmake**, **bash**
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
+Links and Contact
 ----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+* [Github](https://github.com/kstatz12), [Mastodon](https://discuss.systems/@kstatz12)
 
 ----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <karl.statz@gmail.com> • 630-862-5950
+> Chicago, Illinois
