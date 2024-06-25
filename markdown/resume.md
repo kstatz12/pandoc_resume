@@ -16,12 +16,10 @@ Education
 Experience
 ----------
 
-**Software Architect, Rhinodox: 2017-Present:**
-
-As the architect at Rhinodox I wear a lot of hats and like to keep close to the codebase. 
-My main task is to write and maintain our internal libraries around messaging, data access, 
-cache management, concurrency. I like to keep my hands in the code acting as both a mentor and
-to both practice what I preach and work in my own platform to identify and verify pain points.
+**Staff Software Engineer: Software Architecture Lead, Rhinodox: 2017-Present:**
+As a tech lead at Rhinodox my job was to architect new features, build features with the team and leading by example to ensure 
+high code quality standards and to mentor the other members of the team. Part of my job is to prove out features using proof of concepts
+and lean implementations. I like to use a combination of pair programming, in depth code review and keeping documentation up to date
 
 * Designed, implemented and maintained a full architecture platform based on Domain Driven Design, CQRS
 RabbitMQ and PostgreSQL
