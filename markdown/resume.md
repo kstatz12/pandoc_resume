@@ -15,7 +15,16 @@ Education
 
 Experience
 
-**Staff Software Engineer: Software Architecture Lead, Rhinodox: 2017-Present:**
+**Senior Software Developer, NFI Industries: 2024-Present**
+As a senior software developer at NFI I was an integral part of the team that was in charge of designing, architecting and implementing solutions related to Carrier Capacity tooling to enable the business side to accurately find and book carriers on shipments. 
+
+* Designed and developed a GeoNames toolkit to enable near constant time geographic searching to enable radius searching using elixir OTP, python's pandas library and the geonames dataset. 
+* wrote a package to enable convex hull polygon calculations for arbitrary zip codes to enable carrier reps to search for shipments in a more accurate geographic boundary than the previous implementaion
+* implemented a proxy for highway.com that used a token bucket rate limiting strategy and configuratble exponential backoff that responds to a client deadline propogation header to ensure requests complete in line wiht client timeout requirements
+* lead inter-team collaboration to expose shared libraries and services across the organization
+
+
+**Staff Software Engineer: Software Architecture Lead, Rhinodox: 2017-2024**
 As a tech lead at Rhinodox my job was to architect new features, build features with the team and leading by example to ensure 
 high code quality standards and to mentor the other members of the team. Part of my job is to prove out features using proof of concepts
 and lean implementations. I like to use a combination of pair programming, in depth code review and keeping documentation up to date. My role switched from traditional architecture to skunkworks projects to solo-delivering key features for pre-sales or to meet customer needs to just rolling my sleeves up and implementing features alongside the team. 
@@ -94,11 +103,11 @@ Open Source
     * Fixed various bugs
 
 Programming Languages
-:   **C#/.NET:** I have experience with writing and deploying C# in .net from .NET 2.0 all the way up to .NET 9 preview
-:   **Java:** I have experience with gradle/maven java projects from java 1.6 on 
-:   **Erlang/Elixir:** I use erlang/BEAM to mock/prove out distributed/concurrent systems
-:   **Javascript/Typescript** I am experienced in building web applications in angular 8+ and nodejs using express
-:   **SQL:** I have extensive experience designing schemas, developing and performance profiling SQL for postgres/MS SQL Server and MySQL
+:   **C#/.NET:** 
+:   **Erlang/Elixir:** 
+:   **Java:**  
+:   **Javascript/Typescript** 
+:   **SQL:** 
 
 :   Backend Platforms **NodeJs, ExpressJS, ASP.NET WebAPI, Java Spring, gRPC, Elixir Phoenix**
 
